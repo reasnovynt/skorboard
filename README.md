@@ -8,7 +8,6 @@ Skorboard is a static application for calculating multi-game scores with an easy
 
 ![Screenshot of the app](public/showcase/skorboard-screenshot.png)
 
-
 ## Features
 
 - Game duration settings
