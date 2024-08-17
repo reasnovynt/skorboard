@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-	@apply w-screen min-h-screen overflow-x-hidden bg-slate-950 text-slate-100 font-sans;
+    @apply w-screen min-h-screen bg-slate-950 text-slate-100 font-sans;
 }
