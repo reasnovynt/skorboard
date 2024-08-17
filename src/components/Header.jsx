@@ -1,10 +1,10 @@
 export default function Header() {
     return (
-		<div className="z-10 w-full p-8 ">
+		<div className="fixed top-0 z-10 w-full p-8 ">
 			<div className="container flex items-center justify-between mx-auto">
 				<div className="flex gap-2">
 					<h1 className="font-bold">Skorboard App</h1>
-					<span>v1.0.0</span>
+					<span>v1.0.1</span>
 				</div>
 				<div className="text-xs">
 					<span>

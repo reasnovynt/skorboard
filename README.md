@@ -2,6 +2,13 @@
 
 Skorboard is a static application for calculating multi-game scores with an easy-to-use interface.
 
+## Showcase
+
+**Demo**: [https://reasnovynt.github.io/skorboard](https://reasnovynt.github.io/skorboard)
+
+![Screenshot of the app](public/showcase/skorboard-screenshot.png)
+
+
 ## Features
 
 - Game duration settings

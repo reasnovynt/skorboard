@@ -126,7 +126,7 @@ export default function Scoreboard() {
 		<div className="container relative flex flex-col items-center justify-center h-full p-8 mx-auto font-bold grow">
 			{/* Game Settings Modal */}
 			{showGameSettingsModal && (
-				<div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-50">
+				<div className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-20 bg-slate-900 backdrop-blur-lg">
 					<div className="flex flex-col items-center justify-center max-w-sm p-6 text-center rounded-lg shadow-lg bg-slate-100/30 backdrop-blur-lg text-slate-950">
 						<h3 className="mb-4 text-lg font-bold text-slate-100">
 							Set Game Duration and Players
@@ -185,8 +185,12 @@ export default function Scoreboard() {
 			)}
 
 			{/* Game Over Notification */}
-			<div className="absolute -top-10">
-				{gameOver && (
+			<div className="pb-12">
+				{!gameOver ? (
+					<div className="px-4 py-2 text-4xl font-bold rounded-full bg-slate-800">
+						<h2>Let&apos;s start the game!</h2>
+					</div>
+				) : (
 					<div className="text-center">
 						<p className="text-red-500">Time&apos;s up!</p>
 						<p className="text-4xl">Winner: {winner} 🎉</p>
