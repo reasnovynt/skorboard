@@ -1,6 +1,6 @@
 # Skorboard
 
-Skorboard is a static application for calculating multi-game scores with an easy-to-use interface.
+Skorboard is a static application for calculating multi-game scores with an easy-to-use interface using Vite + ReactJS.
 
 ## Showcase
 
