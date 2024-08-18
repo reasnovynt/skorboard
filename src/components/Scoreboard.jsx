@@ -67,8 +67,8 @@ export default function Scoreboard() {
 	const pauseTimer = () => setIsRunning(false);
 
 	const resetGame = () => {
-		setPlayerOne({ ...playerOne, name: newPlayerOneName });
-		setPlayerTwo({ ...playerTwo, name: newPlayerTwoName });
+		setPlayerOne({ ...playerOne, name: newPlayerOneName, score: 0 });
+		setPlayerTwo({ ...playerTwo, name: newPlayerTwoName, score: 0 });
 		setIsRunning(false);
 		setResetKey((prevKey) => prevKey + 1);
 		setGameOver(false);
